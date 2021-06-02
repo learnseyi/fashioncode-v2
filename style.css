@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e1bee7;
+}
+.top-nav {
+  /* background-color: #1b8dff; */
+  background-color: #ff1bff;
+}
+.social {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.main-nav {
+  background-color: #ff1bff;
+}
+.navbar-toggler {
+  background-color: #ff1bff !important;
+  border-color: green !important;
+}
+.navbar-toggler:active {
+  border-color: none !important;
+}
+@media (max-width: 678px) {
+  .nav {
+    position: fixed;
+    background: white;
+    right: 0;
+    top: 56px;
+    display: block;
+    width: 15rem;
+  }
+}
